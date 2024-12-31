@@ -21,4 +21,6 @@ public class ApolloController {
         //第一个参数是配置文件的属性值
         return config.getProperty("server.port", "");
     }
+
+    //没什么用,纯粹就是为了做一次零代码的提交,用于贡献github积分
 }
